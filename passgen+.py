@@ -7,7 +7,7 @@ while generador != 0:
 
     if generador == 1:
 
-        longitud = int(input("Escribe el tamaño de la contraseña: "))
+        longitud = int(input("Cuantos caracteres deseas que tenga la contraseña: "))
 
         caracteres = string.ascii_letters + string.digits + string.punctuation
 
@@ -17,7 +17,7 @@ while generador != 0:
 
     elif generador == 2:
 
-        longitud = int(input("Escribe el tamaño de la contraseña: "))
+        longitud = int(input("Cuantos caracteres deseas que tenga la contraseña: "))
 
         caracteres = string.ascii_letters + string.digits 
 
@@ -27,7 +27,7 @@ while generador != 0:
 
     elif generador == 3:
 
-        longitud = int(input("Escribe el tamaño de la contraseña: "))
+        longitud = int(input("Cuantos caracteres deseas que tenga la contraseña: "))
 
         caracteres = string.ascii_letters 
 
@@ -37,7 +37,7 @@ while generador != 0:
 
     elif generador == 4:
 
-        longitud = int(input("Escribe el tamaño de la contraseña: "))
+        longitud = int(input("Cuantos caracteres deseas que tenga la contraseña: "))
 
         caracteres = string.digits 
 
